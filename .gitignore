@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+Odin/Src/Develop/Odin.Gungnir/Debug/vc120.idb
+Odin/Src/Odin.opensdf
+Odin/Src/Odin.sdf
