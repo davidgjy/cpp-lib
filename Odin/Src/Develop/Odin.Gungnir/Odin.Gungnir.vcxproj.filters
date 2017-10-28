@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Core">
+      <UniqueIdentifier>{bb1669f5-5ceb-49b3-9a9d-ef2da3f0e2c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core">
+      <UniqueIdentifier>{018d6eea-9821-41b5-8a81-1fc6693d2927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DS">
+      <UniqueIdentifier>{eac30a56-fc2f-4f19-9be3-85a1f776f5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DS">
+      <UniqueIdentifier>{3ca1ceca-1177-48e6-847c-379278836271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Sample">
+      <UniqueIdentifier>{a8ba7721-73f1-4dea-93f6-cb2ba154dbff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Sample\Employee">
+      <UniqueIdentifier>{2c0261ec-ebe2-41bd-9b42-dbc3b4ec3c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sample">
+      <UniqueIdentifier>{1705305a-a771-41cd-81bd-cc94bc7c17e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sample\Employee">
+      <UniqueIdentifier>{924fc5da-127f-4979-b2b8-f5317e87b784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Sample\SpreadSheet">
+      <UniqueIdentifier>{6e08c531-df6e-4ef0-bcbc-a24bdc5aaa95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sample\SpreadSheet">
+      <UniqueIdentifier>{f8204a35-a662-4b68-b7f3-61b360e1be42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Stl">
+      <UniqueIdentifier>{6ea02968-4376-4725-a1a5-e37e2e35ec3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Stl\Alg">
+      <UniqueIdentifier>{c4c954d0-5c49-418c-9169-6812cf0954c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stl">
+      <UniqueIdentifier>{667b4e72-30b9-4dc0-8dd2-8e192d1ec5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stl\Alg">
+      <UniqueIdentifier>{85bfe114-1898-40b0-aff4-cc1aa3862777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Stl\Iter">
+      <UniqueIdentifier>{77195544-563a-47d1-a935-97d47ccd3913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stl\Iter">
+      <UniqueIdentifier>{1a4afa2d-3660-4a32-8cdd-60922adddffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Algorithm">
+      <UniqueIdentifier>{56239c57-4da1-479b-8151-f44f76bd3c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Algorithm">
+      <UniqueIdentifier>{af90f253-de3b-4e79-9287-80cf36b07bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Domain">
+      <UniqueIdentifier>{4e21bb24-64df-4118-9cca-49db852b79ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Domain\Models">
+      <UniqueIdentifier>{185e8667-c4e3-4ca1-ae73-f80c0c497750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Domain">
+      <UniqueIdentifier>{b13169a0-8473-4978-a7af-4f47b7df7108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Domain\Models">
+      <UniqueIdentifier>{6993dabb-3d26-4cbe-8afe-0419a772d04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Domain\Service">
+      <UniqueIdentifier>{ba8515a1-2e6d-4bf9-ae29-bcf97131010d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Domain\Service">
+      <UniqueIdentifier>{07e98016-00a6-4de9-95be-966d0c9258e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Stl\Container">
+      <UniqueIdentifier>{a93e90f5-bed9-4b6e-bd14-9a35f24df79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stl\Container">
+      <UniqueIdentifier>{34db3e0d-ad4c-45fb-bc9e-23d64e1547d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Fundamental">
+      <UniqueIdentifier>{e3446f20-c0dd-4e9d-8f50-821a218c41a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Fundamental">
+      <UniqueIdentifier>{ab9de997-aaca-4e3c-b141-b944d13ca0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Fundamental\IO">
+      <UniqueIdentifier>{315ece06-fd55-4280-b5a5-3d13d0a374d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Fundamental\IO">
+      <UniqueIdentifier>{b0d33d8b-2a28-4f6e-8506-fbc6740a2dc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StringUtil.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DS\IntSLList.cpp">
+      <Filter>源文件\DS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FindCharTest.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DS\IntListTest.cpp">
+      <Filter>源文件\DS</Filter>
+    </ClCompile>
+    <ClCompile Include="DS\InsertionSortTest.cpp">
+      <Filter>源文件\DS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample\Employee\Employee.cpp">
+      <Filter>源文件\Sample\Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample\Employee\EmployeeNoDbTest.cpp">
+      <Filter>源文件\Sample\Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample\Employee\Database.cpp">
+      <Filter>源文件\Sample\Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample\Employee\EmployeeDbTest.cpp">
+      <Filter>源文件\Sample\Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample\SpreadSheet\SpreadSheetCellInStackTest.cpp">
+      <Filter>源文件\Sample\SpreadSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample\SpreadSheet\SpreadsheetCell.cpp">
+      <Filter>源文件\Sample\SpreadSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample\SpreadSheet\Spreadsheet.cpp">
+      <Filter>头文件\Sample\SpreadSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample\SpreadSheet\SpreadsheetTest.cpp">
+      <Filter>源文件\Sample\SpreadSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ContainerTest.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Alg\VectorAlgTest.cpp">
+      <Filter>源文件\Stl\Alg</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Alg\CopyTest.cpp">
+      <Filter>源文件\Stl\Alg</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Iter\InsertIteratorTest.cpp">
+      <Filter>源文件\Stl\Iter</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Iter\StreamIteratorTest.cpp">
+      <Filter>源文件\Stl\Iter</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Alg\RemoveTest.cpp">
+      <Filter>源文件\Stl\Alg</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Alg\FuncParamTest.cpp">
+      <Filter>源文件\Stl\Alg</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\MathUtil.cpp">
+      <Filter>源文件\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Alg\PredicateTest.cpp">
+      <Filter>源文件\Stl\Alg</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Models\Person.cpp">
+      <Filter>源文件\Domain\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Alg\LambdaTest.cpp">
+      <Filter>源文件\Stl\Alg</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Alg\FuncObjectTest.cpp">
+      <Filter>源文件\Stl\Alg</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\SorterTest.cpp">
+      <Filter>源文件\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Container\ArrayTest.cpp">
+      <Filter>源文件\Stl\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Container\VectorTest.cpp">
+      <Filter>源文件\Stl\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Container\DequeTest.cpp">
+      <Filter>源文件\Stl\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Container\ListTest.cpp">
+      <Filter>源文件\Stl\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Container\ForwardListTest.cpp">
+      <Filter>源文件\Stl\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Container\SetTest.cpp">
+      <Filter>源文件\Stl\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Container\MultiSetTest.cpp">
+      <Filter>源文件\Stl\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Container\MapTest.cpp">
+      <Filter>源文件\Stl\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Container\MapAdvanceTest.cpp">
+      <Filter>源文件\Stl\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl\Container\UnorderedSetTest.cpp">
+      <Filter>源文件\Stl\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Fundamental\IO\StringStreamTest.cpp">
+      <Filter>源文件\Fundamental\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Fundamental\IO\FileStreamTest.cpp">
+      <Filter>源文件\Fundamental\IO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\StringUtil.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\IntSLList.h">
+      <Filter>头文件\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FindCharTest.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\IntListTest.h">
+      <Filter>头文件\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\SortUtil.h">
+      <Filter>头文件\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\InsertionSortTest.h">
+      <Filter>头文件\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\VectorUtil.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FormatConstants.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ArrayUtil.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample\Employee\Employee.h">
+      <Filter>头文件\Sample\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample\Employee\EmployeeNoDbTest.h">
+      <Filter>头文件\Sample\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample\Employee\Database.h">
+      <Filter>头文件\Sample\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample\Employee\EmployeeDbTest.h">
+      <Filter>头文件\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample\SpreadSheet\SpreadsheetCell.h">
+      <Filter>头文件\Sample\SpreadSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample\SpreadSheet\SpreadSheetCellInStackTest.h">
+      <Filter>头文件\Sample\SpreadSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample\SpreadSheet\Spreadsheet.h">
+      <Filter>头文件\Sample\SpreadSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample\SpreadSheet\SpreadsheetTest.h">
+      <Filter>头文件\Sample\SpreadSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ContainerUtil.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ContainerTest.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Alg\VectorAlgTest.h">
+      <Filter>头文件\Stl\Alg</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Alg\CopyTest.h">
+      <Filter>头文件\Stl\Alg</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Iter\InsertIteratorTest.h">
+      <Filter>头文件\Stl\Iter</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Iter\StreamIteratorTest.h">
+      <Filter>头文件\Stl\Iter</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Alg\RemoveTest.h">
+      <Filter>头文件\Stl\Alg</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Alg\FuncParamTest.h">
+      <Filter>头文件\Stl\Alg</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Alg\PredicateTest.h">
+      <Filter>头文件\Stl\Alg</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\MathUtil.h">
+      <Filter>头文件\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Models\Person.h">
+      <Filter>头文件\Domain\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Alg\LambdaTest.h">
+      <Filter>头文件\Stl\Alg</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Alg\FuncObjectTest.h">
+      <Filter>头文件\Stl\Alg</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\PrintInt.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\AddInt.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\print.hpp">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\Sorter.hpp">
+      <Filter>头文件\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\SorterTest.h">
+      <Filter>头文件\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Container\ArrayTest.h">
+      <Filter>头文件\Stl\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Container\VectorTest.h">
+      <Filter>头文件\Stl\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Container\DequeTest.h">
+      <Filter>头文件\Stl\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Container\ListTest.h">
+      <Filter>头文件\Stl\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Container\ForwardListTest.h">
+      <Filter>头文件\Stl\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\findbefore.hpp">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Container\SetTest.h">
+      <Filter>头文件\Stl\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Container\MultiSetTest.h">
+      <Filter>头文件\Stl\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\RuntimeCmp.hpp">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CoreCont.hpp">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Container\MapTest.h">
+      <Filter>头文件\Stl\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Container\MapAdvanceTest.h">
+      <Filter>头文件\Stl\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\RuntimeStringCmp.hpp">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl\Container\UnorderedSetTest.h">
+      <Filter>头文件\Stl\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Fundamental\IO\StringStreamTest.h">
+      <Filter>头文件\Fundamental\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\hashval.hpp">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Models\Customer.h">
+      <Filter>头文件\Domain\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Models\CustomerHash.h">
+      <Filter>头文件\Domain\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Models\CustomerEqual.h">
+      <Filter>头文件\Domain\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Fundamental\IO\FileStreamTest.h">
+      <Filter>头文件\Fundamental\IO</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

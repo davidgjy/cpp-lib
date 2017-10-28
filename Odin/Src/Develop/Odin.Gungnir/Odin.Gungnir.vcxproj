@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{381B248A-34C5-48EA-B191-943E0C9C8302}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OdinGungnir</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Algorithm\MathUtil.cpp" />
+    <ClCompile Include="Algorithm\SorterTest.cpp" />
+    <ClCompile Include="Core\ContainerTest.cpp" />
+    <ClCompile Include="Core\FindCharTest.cpp" />
+    <ClCompile Include="Core\StringUtil.cpp" />
+    <ClCompile Include="Domain\Models\Person.cpp" />
+    <ClCompile Include="DS\InsertionSortTest.cpp" />
+    <ClCompile Include="DS\IntListTest.cpp" />
+    <ClCompile Include="DS\IntSLList.cpp" />
+    <ClCompile Include="Fundamental\IO\FileStreamTest.cpp" />
+    <ClCompile Include="Fundamental\IO\StringStreamTest.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sample\Employee\Database.cpp" />
+    <ClCompile Include="Sample\Employee\Employee.cpp" />
+    <ClCompile Include="Sample\Employee\EmployeeDbTest.cpp" />
+    <ClCompile Include="Sample\Employee\EmployeeNoDbTest.cpp" />
+    <ClCompile Include="Sample\SpreadSheet\Spreadsheet.cpp" />
+    <ClCompile Include="Sample\SpreadSheet\SpreadsheetCell.cpp" />
+    <ClCompile Include="Sample\SpreadSheet\SpreadSheetCellInStackTest.cpp" />
+    <ClCompile Include="Sample\SpreadSheet\SpreadsheetTest.cpp" />
+    <ClCompile Include="Stl\Alg\CopyTest.cpp" />
+    <ClCompile Include="Stl\Alg\FuncObjectTest.cpp" />
+    <ClCompile Include="Stl\Alg\FuncParamTest.cpp" />
+    <ClCompile Include="Stl\Alg\LambdaTest.cpp" />
+    <ClCompile Include="Stl\Alg\PredicateTest.cpp" />
+    <ClCompile Include="Stl\Alg\RemoveTest.cpp" />
+    <ClCompile Include="Stl\Alg\VectorAlgTest.cpp" />
+    <ClCompile Include="Stl\Container\ArrayTest.cpp" />
+    <ClCompile Include="Stl\Container\DequeTest.cpp" />
+    <ClCompile Include="Stl\Container\ForwardListTest.cpp" />
+    <ClCompile Include="Stl\Container\ListTest.cpp" />
+    <ClCompile Include="Stl\Container\MapAdvanceTest.cpp" />
+    <ClCompile Include="Stl\Container\MapTest.cpp" />
+    <ClCompile Include="Stl\Container\MultiSetTest.cpp" />
+    <ClCompile Include="Stl\Container\SetTest.cpp" />
+    <ClCompile Include="Stl\Container\UnorderedSetTest.cpp" />
+    <ClCompile Include="Stl\Container\VectorTest.cpp" />
+    <ClCompile Include="Stl\Iter\InsertIteratorTest.cpp" />
+    <ClCompile Include="Stl\Iter\StreamIteratorTest.cpp" />
+    <ClCompile Include="TestBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithm\MathUtil.h" />
+    <ClInclude Include="Algorithm\Sorter.hpp" />
+    <ClInclude Include="Algorithm\SorterTest.h" />
+    <ClInclude Include="Core\AddInt.h" />
+    <ClInclude Include="Core\ArrayUtil.h" />
+    <ClInclude Include="Core\ContainerTest.h" />
+    <ClInclude Include="Core\ContainerUtil.h" />
+    <ClInclude Include="Core\CoreCont.hpp" />
+    <ClInclude Include="Core\findbefore.hpp" />
+    <ClInclude Include="Core\FindCharTest.h" />
+    <ClInclude Include="Core\FormatConstants.h" />
+    <ClInclude Include="Core\hashval.hpp" />
+    <ClInclude Include="Core\print.hpp" />
+    <ClInclude Include="Core\PrintInt.h" />
+    <ClInclude Include="Core\RuntimeCmp.hpp" />
+    <ClInclude Include="Core\RuntimeStringCmp.hpp" />
+    <ClInclude Include="Core\StringUtil.h" />
+    <ClInclude Include="Core\VectorUtil.h" />
+    <ClInclude Include="Domain\Models\Customer.h" />
+    <ClInclude Include="Domain\Models\CustomerEqual.h" />
+    <ClInclude Include="Domain\Models\CustomerHash.h" />
+    <ClInclude Include="Domain\Models\Person.h" />
+    <ClInclude Include="DS\InsertionSortTest.h" />
+    <ClInclude Include="DS\IntListTest.h" />
+    <ClInclude Include="DS\IntSLList.h" />
+    <ClInclude Include="DS\SortUtil.h" />
+    <ClInclude Include="Fundamental\IO\FileStreamTest.h" />
+    <ClInclude Include="Fundamental\IO\StringStreamTest.h" />
+    <ClInclude Include="Sample\Employee\Database.h" />
+    <ClInclude Include="Sample\Employee\Employee.h" />
+    <ClInclude Include="Sample\Employee\EmployeeDbTest.h" />
+    <ClInclude Include="Sample\Employee\EmployeeNoDbTest.h" />
+    <ClInclude Include="Sample\SpreadSheet\Spreadsheet.h" />
+    <ClInclude Include="Sample\SpreadSheet\SpreadsheetCell.h" />
+    <ClInclude Include="Sample\SpreadSheet\SpreadSheetCellInStackTest.h" />
+    <ClInclude Include="Sample\SpreadSheet\SpreadsheetTest.h" />
+    <ClInclude Include="Stl\Alg\CopyTest.h" />
+    <ClInclude Include="Stl\Alg\FuncObjectTest.h" />
+    <ClInclude Include="Stl\Alg\FuncParamTest.h" />
+    <ClInclude Include="Stl\Alg\LambdaTest.h" />
+    <ClInclude Include="Stl\Alg\PredicateTest.h" />
+    <ClInclude Include="Stl\Alg\RemoveTest.h" />
+    <ClInclude Include="Stl\Alg\VectorAlgTest.h" />
+    <ClInclude Include="Stl\Container\ArrayTest.h" />
+    <ClInclude Include="Stl\Container\DequeTest.h" />
+    <ClInclude Include="Stl\Container\ForwardListTest.h" />
+    <ClInclude Include="Stl\Container\ListTest.h" />
+    <ClInclude Include="Stl\Container\MapAdvanceTest.h" />
+    <ClInclude Include="Stl\Container\MapTest.h" />
+    <ClInclude Include="Stl\Container\MultiSetTest.h" />
+    <ClInclude Include="Stl\Container\SetTest.h" />
+    <ClInclude Include="Stl\Container\UnorderedSetTest.h" />
+    <ClInclude Include="Stl\Container\VectorTest.h" />
+    <ClInclude Include="Stl\Iter\InsertIteratorTest.h" />
+    <ClInclude Include="Stl\Iter\StreamIteratorTest.h" />
+    <ClInclude Include="TestBase.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

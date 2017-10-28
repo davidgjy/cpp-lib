@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Basic">
+      <UniqueIdentifier>{7b0a9c88-d260-4720-a726-84b12e01fb70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Basic">
+      <UniqueIdentifier>{ded283a2-d42d-47f8-94d4-34dbe300a302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\STL">
+      <UniqueIdentifier>{39711fee-5c12-43ee-8e46-3cbeabf663bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STL">
+      <UniqueIdentifier>{1125e63d-67ba-478d-8bd6-e286f034dd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Concurrency">
+      <UniqueIdentifier>{d6353d01-e399-4b98-8f20-315b7d2df876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Concurrency">
+      <UniqueIdentifier>{40a779a4-7bfd-4a48-9459-ce9c78ddadc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\FileStream">
+      <UniqueIdentifier>{59c2c571-298c-4438-b740-75d446bcad90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FileStream">
+      <UniqueIdentifier>{75b64b23-8973-4123-a159-c7371f244eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Infra">
+      <UniqueIdentifier>{42c4a0b7-0256-4814-8856-9b77ebd48e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Infra">
+      <UniqueIdentifier>{d175ef6d-36d1-4bb7-8bb3-46b4d4deb682}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basic\BasicTest.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Factory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Concurrency\HelloThread.cpp">
+      <Filter>源文件\Concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Concurrency\BasicThread.cpp">
+      <Filter>源文件\Concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FileStream\WriteCharToStream.cpp">
+      <Filter>源文件\FileStream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Infra\MyString.cpp">
+      <Filter>源文件\Infra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basic\MyStringTest.cpp">
+      <Filter>源文件\Basic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Basic\BasicTest.h">
+      <Filter>头文件\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Factory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Concurrency\HelloThread.h">
+      <Filter>头文件\Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Concurrency\BasicThread.h">
+      <Filter>头文件\Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FileStream\WriteCharToStream.h">
+      <Filter>头文件\FileStream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Infra\MyString.h">
+      <Filter>头文件\Infra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basic\MyStringTest.h">
+      <Filter>头文件\Basic</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

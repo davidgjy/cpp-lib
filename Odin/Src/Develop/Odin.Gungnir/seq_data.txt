@@ -1,0 +1,4 @@
+David  Manager  50000
+Peter  Programmer  9000
+Mary  Reportor  6000
+Alice  Engineer  10000

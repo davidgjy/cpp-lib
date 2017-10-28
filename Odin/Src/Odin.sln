@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Train", "Train", "{D2EA6458-4012-4F9D-8A44-736B858D839F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Develop", "Develop", "{AB14AF11-1DCE-4942-97B8-E20124087C4E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Odin.CppTrainer", "Train\Odin.CppTrainer\Odin.CppTrainer.vcxproj", "{C960273D-E661-4352-888D-E948B42F836B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Odin.Gungnir", "Develop\Odin.Gungnir\Odin.Gungnir.vcxproj", "{381B248A-34C5-48EA-B191-943E0C9C8302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Boost", "Boost", "{8D0755F0-A13A-476C-B1E6-26DC8A19A0F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Odin.Boost", "Boost\Odin.Boost\Odin.Boost.vcxproj", "{BA70C5F2-FBE3-4291-A096-3BC456B9785C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C960273D-E661-4352-888D-E948B42F836B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C960273D-E661-4352-888D-E948B42F836B}.Debug|Win32.Build.0 = Debug|Win32
+		{C960273D-E661-4352-888D-E948B42F836B}.Release|Win32.ActiveCfg = Release|Win32
+		{C960273D-E661-4352-888D-E948B42F836B}.Release|Win32.Build.0 = Release|Win32
+		{381B248A-34C5-48EA-B191-943E0C9C8302}.Debug|Win32.ActiveCfg = Debug|Win32
+		{381B248A-34C5-48EA-B191-943E0C9C8302}.Debug|Win32.Build.0 = Debug|Win32
+		{381B248A-34C5-48EA-B191-943E0C9C8302}.Release|Win32.ActiveCfg = Release|Win32
+		{381B248A-34C5-48EA-B191-943E0C9C8302}.Release|Win32.Build.0 = Release|Win32
+		{BA70C5F2-FBE3-4291-A096-3BC456B9785C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA70C5F2-FBE3-4291-A096-3BC456B9785C}.Debug|Win32.Build.0 = Debug|Win32
+		{BA70C5F2-FBE3-4291-A096-3BC456B9785C}.Release|Win32.ActiveCfg = Release|Win32
+		{BA70C5F2-FBE3-4291-A096-3BC456B9785C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C960273D-E661-4352-888D-E948B42F836B} = {D2EA6458-4012-4F9D-8A44-736B858D839F}
+		{381B248A-34C5-48EA-B191-943E0C9C8302} = {AB14AF11-1DCE-4942-97B8-E20124087C4E}
+		{BA70C5F2-FBE3-4291-A096-3BC456B9785C} = {8D0755F0-A13A-476C-B1E6-26DC8A19A0F5}
+	EndGlobalSection
+EndGlobal
